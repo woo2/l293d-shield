@@ -1,4 +1,4 @@
-update=Sun 11 Jun 2017 09:16:18 AM CEST
+update=Tue 13 Jun 2017 08:30:42 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Arduino_Shield_Modules_for_KiCad_V3
+LibDir=l293d-shield.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName31=/home/nick/Desktop/ardaminoShield/arduino_shieldsNCL
