@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP C
-D Unpolarized capacitor
-K cap capacitor
+$CMP ARDUINO_SHIELD
+D Simple Arduino UNO Pinout
+K Arduino Shield
 $ENDCMP
 #
 #End Doc Library

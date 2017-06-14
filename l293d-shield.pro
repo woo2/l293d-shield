@@ -1,4 +1,4 @@
-update=Tue 13 Jun 2017 08:30:42 PM PDT
+update=Tue 13 Jun 2017 08:56:59 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=l293d-shield.pretty
+LibDir=../l293d-shield
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,3 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=l293d-shield
