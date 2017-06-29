@@ -2,11 +2,11 @@
 
   (general
     (links 20)
-    (no_connects 1)
+    (no_connects 0)
     (area 154.2614 49.295529 213.433 122.856601)
     (thickness 1.6)
     (drawings 26)
-    (tracks 193)
+    (tracks 192)
     (zones 0)
     (modules 4)
     (nets 31)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.25)
     (user_trace_width 0.508)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -65,8 +65,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -83,12 +83,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory out/))
   )
 
   (net 0 "")
@@ -438,7 +438,6 @@
   (segment (start 184.15 95.25) (end 173.99 95.25) (width 0.508) (layer F.Cu) (net 19))
   (segment (start 192.405 93.345) (end 191.77 93.345) (width 0.508) (layer B.Cu) (net 19))
   (segment (start 195.58 90.17) (end 192.405 93.345) (width 0.508) (layer B.Cu) (net 19))
-  (segment (start 173.99 100.33) (end 175.26 99.06) (width 0.508) (layer F.Cu) (net 20))
   (segment (start 187.96 97.79) (end 185.42 100.33) (width 0.508) (layer F.Cu) (net 20))
   (segment (start 173.99 100.33) (end 175.798 100.33) (width 0.508) (layer F.Cu) (net 20))
   (segment (start 175.798 100.33) (end 185.42 100.33) (width 0.508) (layer F.Cu) (net 20))
